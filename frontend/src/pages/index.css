@@ -1,0 +1,43 @@
+.home {
+    display: grid;
+    grid-template-columns: 3fr 1 fr;
+    gap: 100px;
+    max-width: 1400px;
+    padding: 20px;
+    margin: 0 auto;
+
+
+}
+.complaint-details {
+    background: #555;
+    border-radius: 4px ; 
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0,0.05) ; 
+
+}
+.complaint-details h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+    color: #fff;
+
+}
+/* .complaint-details span {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background: #f1f1f1;
+    padding: 6px;
+    border-radius: 50%;
+    color: #333;
+} */
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
