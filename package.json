@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server.js",
+    "start": "concurrently \"set PORT=3006 && npm run front\" \"npm run back\"",
     "back": "nodemon server",
     "front": "cd frontend && npm start",
     "dev": " concurrently \"set PORT=3006 && npm run front\" \"npm run back\"",
