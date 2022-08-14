@@ -49,3 +49,5 @@ function(err,db){
 });
 
 module.exports = app;
+
+//test cli
